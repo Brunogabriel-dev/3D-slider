@@ -17,12 +17,24 @@
       ),
       repeating-linear-gradient(
         to bottom, transparent 0 100px,
-      )
-      
+        #25283b22 100px 101px
+      );
+    }
+
+    bory::before{
+      position: absolute;
+      width: min(1400px, 90vw);
+      top: 10%;
+      left: 50%;
+      height: 90%;
+      transform: translateX(-50%);
+      content: '';
+      background-image: url(images/bg.png);
     }
 
 
   </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   
